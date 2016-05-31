@@ -10,6 +10,6 @@ document.addEventListener('DOMContentLoaded', function() {
 	}, 1);
 
 	window.setTimeout(function() {
-		document.body.innerHTML += '<script src="js/delayed-common.js"><\/script>';
+		document.body.innerHTML += '<script src="js/delayed-common.js?id=1"><\/script>';
 	}, 1000);
 }, false);

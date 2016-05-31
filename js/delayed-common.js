@@ -1,1 +1,1 @@
-document.getElementById('timeout').innerHTML = new Date();
+document.getElementById('timeout').innerHTML = 'hello';
