@@ -1,4 +1,8 @@
 var counter = 0;
+window.setInterval(function() {
+	document.getElementById('interval').innerHTML = counter;
+	counter++;
+}, 1);
 
 document.addEventListener('DOMContentLoaded', function() {
 
