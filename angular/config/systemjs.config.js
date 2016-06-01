@@ -57,7 +57,7 @@
     // DEMO ONLY! REAL CODE SHOULD NOT TRANSPILE IN THE BROWSER
     transpiler: 'ts',
     typescriptOptions: {
-      tsconfig: true
+      tsconfig: 'config/tsconfig.json'
     },
     meta: {
       'typescript': {
