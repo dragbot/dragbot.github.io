@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     window.setInterval(function() {
     	document.getElementById('interval').innerHTML = counter;
     	counter++;
-    }, 1);
+    }, 100);
 
     window.setTimeout(function() {
         document.body.innerHTML += '<script src="js/delayed-common.js?id=1"><\/script>';
