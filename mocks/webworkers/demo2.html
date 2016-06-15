@@ -144,7 +144,7 @@
         </div>
     </form>
     <script type="text/javascript">
-        var worker = new Worker("/js/worker.js");
+        var worker = new Worker("js/worker.js");
         worker.addEventListener("message", function(evt) {
             console.log(evt)
             alert(evt.data);
